@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Css/style.css">
+  </head> 
+  <body>
+    <form>
+        <div class="container">
+          <h1>Registre</h1>  
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Insira seu Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Senha</b></label>
+          <input type="password" placeholder="Insira sua senha" name="psw" id="senha" required>
+      
+          <label for="psw-repeat"><b>Digite a senha novamente</b></label>
+          <input type="password" placeholder="Insira sua senha novamente" name="psw-repeat" id="senhaRepete" required>
+          <button onclick="salvar()" type="submit" class="registerbtn">Registrar</button>
+        </div>
+        <div class="container signin">
+          <p>já tem uma conta? <a href="index.html">Entrar</a>.</p>
+        </div>
+        <script src="js/script.js"></script>
+      </form>
+    </body>
+</html>
